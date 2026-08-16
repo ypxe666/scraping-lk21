@@ -19,7 +19,7 @@ app.use(cors({ origin: "*" }));
 app.use(routes);
 
 app.get("/", (request: Request, response: Response) => {
-  response.json({ message: "API is working!" });
+  response.json({ message: "Berhasil Terhubung!" });
 });
 
 export default app;
